@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+
+.morepic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    button{
+        background-color: purple;
+        color: white;
+        padding: 0.5rem;
+        font-size: 2rem;
+        border-radius: 100px;
+    }
+}
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./Pictures.scss";
